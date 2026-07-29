@@ -1,6 +1,6 @@
 ﻿/*
     name: "夸父资源社"
-    cron: 30 0 9 * * *
+    cron: 0 40 11 * * *
     环境变量名: KFZY_COOKIE_LIST
     环境变量值: 填写cookie（bbs_sid=xxx; bbs_token=xxx）
 */

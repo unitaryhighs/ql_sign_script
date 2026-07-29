@@ -1,6 +1,6 @@
 ﻿/*
     name: "历史上的今天"
-    cron: 45 0 9 * * *
+    cron: 0 35 10 * * *
     环境变量名: TODAYHISTORY_LIST
     备注: 无需账号
 */

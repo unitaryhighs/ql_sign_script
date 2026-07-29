@@ -1,6 +1,6 @@
 ﻿/*
     name: "学姐吧"
-    cron: 30 0 9 * * *
+    cron: 0 50 11 * * *
     环境变量名: XUEJIEBA_COOKIE_LIST
     环境变量值: 填写cookie（gg_info=xxx; b2_token=xxx）
 */

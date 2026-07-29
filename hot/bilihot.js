@@ -1,6 +1,6 @@
 /*
     name: "B站热搜榜"
-    cron: 45 0 9 * * *
+    cron: 0 5 9 * * *
     环境变量名: BILIHOT_LIST
     备注: 无需账号
 */

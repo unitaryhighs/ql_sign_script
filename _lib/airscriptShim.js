@@ -232,10 +232,24 @@ function installShim(opts) {
         if (global.qlpushFlag <= 0 && global.flagFinish === 1) {
           console.log('🚀 青龙发起推送');
           const msg = global.messageMerge();
-          try {
-            const { sendNotify } = require('./sendNotify');
-            sendNotify(pushHeader, msg);
-          } catch (e) {
+          // 尝试加载 sendNotify：优先青龙自带（scripts 根目录），其次本地测试 stub
+          // Try to load sendNotify: QingLong built-in first, then local stub
+          const notifyCandidates = [
+            '../../sendNotify',  // 青龙自带 /ql/data/scripts/sendNotify
+            './sendNotify',      // 本地测试 stub
+          ];
+          let notifyFn = null;
+          for (const cp of notifyCandidates) {
+            try {
+              const mod = require(cp);
+              // 兼容两种导出：module.exports = fn 或 { sendNotify: fn }
+              notifyFn = (typeof mod === 'function') ? mod : mod.sendNotify;
+              if (typeof notifyFn === 'function') break;
+            } catch (e) { /* 继续尝试下一个候选 / try next candidate */ }
+          }
+          if (typeof notifyFn === 'function') {
+            notifyFn(pushHeader, msg);
+          } else {
             console.log('⚠️ sendNotify 未找到，打印消息 / sendNotify not found:');
             console.log(msg);
           }

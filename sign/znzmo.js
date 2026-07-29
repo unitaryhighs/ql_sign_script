@@ -1,6 +1,6 @@
 ﻿/*
     name: "知末"
-    cron: 30 0 9 * * *
+    cron: 0 55 11 * * *
     环境变量名: ZNZMO_COOKIE_LIST
     环境变量值: 填写cookie（SESSION=xxx; user-uuid=xxx; znzmo-id=xxx）
 */

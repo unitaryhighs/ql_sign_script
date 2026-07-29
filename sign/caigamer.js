@@ -1,6 +1,6 @@
 ﻿/*
     name: "菜玩社区"
-    cron: 30 0 9 * * *
+    cron: 0 20 11 * * *
     环境变量名: CAIGAMER_COOKIE_LIST
     环境变量值: 填写cookie（bbs_sid=xxx; bbs_token=xxx）
 */

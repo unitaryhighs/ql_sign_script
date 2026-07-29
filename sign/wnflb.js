@@ -1,6 +1,6 @@
 ﻿/*
     name: "万能福利吧"
-    cron: 45 0 9 * * *
+    cron: 0 45 11 * * *
     环境变量名: WNFLB_COOKIE_LIST
     环境变量值: 填写cookie
     备注: 需要cookie。F12 -> "Network"(网络) -> 按Ctrl+R -> www.wnflb2023.com -> cookie

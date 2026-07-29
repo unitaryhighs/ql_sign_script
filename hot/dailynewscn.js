@@ -1,6 +1,6 @@
 /*
     name: "中国日报"
-    cron: 45 0 9 * * *
+    cron: 0 15 9 * * *
     环境变量名: DAILYNEWSCN_LIST
     备注: 无需账号
 */

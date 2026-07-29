@@ -1,6 +1,6 @@
 ﻿/*
     name: "看雪论坛"
-    cron: 45 0 9 * * *
+    cron: 0 35 11 * * *
     环境变量名: KANXUE_COOKIE_LIST
     环境变量值: 填写cookie
 */

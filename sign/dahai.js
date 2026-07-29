@@ -1,6 +1,6 @@
 ﻿/*
     name: "大海资源站"
-    cron: 45 0 9 * * *
+    cron: 0 30 11 * * *
     环境变量名: DAHAI_COOKIE_LIST
     环境变量值: 填写 cookie
     备注: 大海资源站每日签到，需登录 cookie（WordPress 站点）

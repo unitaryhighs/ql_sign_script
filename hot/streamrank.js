@@ -1,6 +1,6 @@
 /*
     name: "Steam在线人数"
-    cron: 45 0 9 * * *
+    cron: 0 30 10 * * *
     环境变量名: STREAMRANK_LIST
     备注: 无需账号（D列填appid，如730）
 */
