@@ -1,0 +1,49 @@
+{
+  "CIBA_LIST": [
+    { "cn": "是", "en": "是" }
+  ],
+  "DAY60S_LIST": [{}],
+  "TODAYHISTORY_LIST": [{}],
+  "BDHOT_LIST": [{}],
+  "ZAOAN_LIST": [{}],
+  "WBHOT_LIST": [{}],
+  "BILIHOT_LIST": [{}],
+  "DYHOT_LIST": [{}],
+  "ZHHOT_LIST": [{}],
+  "DAILYNEWSCN_LIST": [{}],
+  "SSPHOT_LIST": [{}],
+  "WANAN_LIST": [{}],
+  "JITANG_LIST": [{}],
+  "ONEYAN_LIST": [{}],
+  "KFC_LIST": [{}],
+  "MEIJU_LIST": [{}],
+  "WEIMEI_LIST": [{}],
+  "XINGZUO_LIST": [{ "input": "白羊座" }],
+  "PIAOFANG_LIST": [{}],
+ "STREAMRANK_LIST": [{ "input": "730" }],
+  "OILPRICE_LIST": [{ "area": "北京" }],
+ "SMZDM_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "KANXUE_COOKIE_LIST": [
+    { "cookie": "your_cookie_here" }
+  ],
+  "WNFLB_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "KFZY_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "DAHAI_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "ZNZMO_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "XUEJIEBA_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ],
+  "CAIGAMER_COOKIE_LIST": [
+    { "cookie": "your_cookie_here", "remark": "主号" }
+  ]
+}

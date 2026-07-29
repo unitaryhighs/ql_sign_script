@@ -1,0 +1,23 @@
+# Node 依赖 / Node dependencies
+node_modules/
+package-lock.json
+
+# 用户实际的配置文件不入库 / Real config stays out of git
+config.json
+MIGRATION_PLAN.md
+AGENTS.md
+
+# 日志 / Logs
+*.log
+
+# 编辑器 / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地临时测试 / Local test shims
+_lib/sendNotify.js
+
+# 临时提取脚本 / Temp extraction scripts
+.codex_extract.js

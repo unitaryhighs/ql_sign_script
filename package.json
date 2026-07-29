@@ -1,0 +1,10 @@
+{
+  "name": "ql_sign_script",
+  "version": "1.0.0",
+  "description": "青龙面板签到脚本 / Qinglong panel sign-in scripts (zero external dependencies)",
+  "private": true,
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {}
+}
